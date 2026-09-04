@@ -5,6 +5,8 @@ __pycache__/
 # Dossier de données
 data/*/*
 !data/*/
+!data/*/.gitkeep
+
 
 # Fichiers VS code facultatifs
 .vscode/
@@ -14,6 +16,7 @@ data/*/*
 # Outputs : garder les dossiers, ignorer leur contenu
 outputs/*/*
 !outputs/*/
+!outputs/*/.gitkeep
 # Sauf le dossier presentations : conserver son contenu
 !outputs/presentations/
 !outputs/presentations/**/*
