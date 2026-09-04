@@ -1,0 +1,21 @@
+# cache python
+__pycache__/
+*.py[code]
+
+# Dossier de données
+data/*/*
+!data/*/
+
+# Fichiers VS code facultatifs
+.vscode/
+
+.venv/
+
+# Outputs : garder les dossiers, ignorer leur contenu
+outputs/*/*
+!outputs/*/
+# Sauf le dossier presentations : conserver son contenu
+!outputs/presentations/
+!outputs/presentations/**/*
+
+autre/
